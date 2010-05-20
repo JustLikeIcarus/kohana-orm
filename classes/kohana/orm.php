@@ -222,9 +222,6 @@ class Kohana_ORM {
 
 		// Load column information
 		$this->reload_columns();
-
-		// Clear initial model state
-		$this->clear();
 	}
 
 
