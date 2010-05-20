@@ -1316,7 +1316,7 @@ class Kohana_ORM {
 	 */
 	public function pk()
 	{
-		return $this->_primary_key_value;
+		return $this->_object[$this->_primary_key];
 	}
 
 	/**
